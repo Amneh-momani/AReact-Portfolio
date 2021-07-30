@@ -1,3 +1,4 @@
+
 /*!
 =========================================================
 * Argon Design System React - v1.1.0
@@ -32,6 +33,7 @@ class CardsFooter extends React.Component {
   render() {
     return (
       <>
+      
         <footer className="footer has-cards">
           <Container className="container-lg">
             <Row>
@@ -179,6 +181,7 @@ class CardsFooter extends React.Component {
             </Row>
           </Container>
         </footer>
+      
       </>
     );
   }
