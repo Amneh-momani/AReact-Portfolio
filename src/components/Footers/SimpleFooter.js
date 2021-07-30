@@ -33,6 +33,7 @@ class SimpleFooter extends React.Component {
   render() {
     return (
       <>
+{/*       
         <footer className=" footer">
           <Container>
             <Row className=" row-grid align-items-center mb-5">
@@ -156,6 +157,7 @@ class SimpleFooter extends React.Component {
             </Row>
           </Container>
         </footer>
+      */}
       </>
     );
   }
