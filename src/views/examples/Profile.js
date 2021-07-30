@@ -1,19 +1,13 @@
 /*!
-
 =========================================================
 * Argon Design System React - v1.1.0
 =========================================================
-
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md)
-
 * Coded by Creative Tim
-
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
 import React from "react";
 
@@ -23,7 +17,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/amneh2.jpg";
+import profile from "assets/img/theme/team-4-800x800.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -108,15 +102,15 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">0</span>
+                          <span className="heading">22</span>
                           <span className="description">Friends</span>
                         </div>
                         <div>
-                          <span className="heading">0</span>
+                          <span className="heading">10</span>
                           <span className="description">Photos</span>
                         </div>
                         <div>
-                          <span className="heading">0</span>
+                          <span className="heading">89</span>
                           <span className="description">Comments</span>
                         </div>
                       </div>
@@ -124,28 +118,31 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Amneh AL-Momany{" "}
-                      <span className="font-weight-light">, 25</span>
+                      Jessica Jones{" "}
+                      <span className="font-weight-light">, 27</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Zarqa, Jordan
+                      Bucharest, Romania
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      software developer  / Trainee
- 
+                      Solution Manager - Creative Tim Officer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      Al Al-Bayt Univesity
+                      University of Computer Science
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                        Trainee as Software Developer at ASAC 
+                          An artist of considerable range, Ryan — the name taken
+                          by Melbourne-raised, Brooklyn-based Nick Murphy —
+                          writes, performs and records all of his own music,
+                          giving it a warm, intimate feel with a solid groove
+                          structure. An artist of considerable range.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
